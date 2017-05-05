@@ -1,0 +1,480 @@
+﻿html,body,div,p,a,ul,li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html,body{
+	width: 100%;
+	font-size: 100%;
+
+}
+
+div{
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+input{
+	font-family: 微软雅黑;
+	outline: none;
+}
+
+.font{
+	font-family: 微软雅黑;
+}
+
+.white{
+	color: white;
+}
+.f14{
+	font-size: 14px;
+}
+.f16{
+	font-size: 16px;
+}
+.f18{
+	font-size: 18px;
+}
+.f22{
+	font-size: 22px;
+}
+.f24{
+	font-size: 24px;
+}
+.f30{
+	font-size: 30px;
+}
+.f36{
+	font-size: 36px;
+}
+.c1{
+	color: #F1F1F3;
+}
+.c2{
+	color: #3a424d;
+}
+.c3{
+	color: #edc5db;
+}
+.c4{
+	color: #aa1416;
+}
+.c5{
+	color: #454d59;
+}
+.c6{
+	color: #fb8e00;
+}
+.c7{
+	color: #bef5e8;
+}
+.c8{
+	color: #217ff2;
+}
+.header{
+	background-color: rgba(0,0,0,0.5);
+	height: 55px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: 10;
+}
+
+.nav{
+	width: 960px;
+}
+
+.nav ul li{
+	width: 90px;
+	height: 55px;
+	float: left;
+	padding: 0 75px;
+	text-align: center;
+	line-height: 55px;
+	list-style-type: disc;
+	color: white;
+}
+
+.nav ul li a:hover{
+	color: #0FA0FD;
+}
+
+.nav ul li:nth-child(1){
+	list-style-type: none;
+}
+
+.intro1{
+	height: 605px;
+	margin-top: 55px;
+	background-color: #F1F1F3;
+	position: relative;
+}
+.photo-wall{
+	width: 1349px;
+	height: 446px;
+	background: url(../image/photo-wall.jpg) no-repeat;
+}
+
+.title{
+	width: 590px;
+	height: 290px;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top:100px;
+	left: 150px;
+}
+
+.dotwe{
+	width: 504px;
+	height: 96px;
+	background: url(../image/dotwe.png) no-repeat;
+	position: relative;
+	top: 57px;
+}
+
+.hr{
+	width: 523px;
+	height: 80px;
+	background: url(../image/hr.png) no-repeat;
+	position: relative;
+	top: 57px;
+}
+
+
+.join{
+		width: 300px;
+	height: 55px;
+	margin-top: 30px;
+}
+.joinus{
+	display: block;
+	width: 300px;
+	height: 55px;
+	background:url(../image/join-us.png) no-repeat; 
+}
+
+.intro2{
+	height: 645px;
+	position: relative;
+	background-color: #42b5e8;
+}
+
+.content2{
+	width: 960px;
+	height: 645px;
+	position: relative;
+}
+
+.computer{
+	width: 734px;
+	height: 424px;
+	background: url(../image/computer.gif) no-repeat;
+	position: absolute;
+	top:145px;
+	left: -115px;
+}
+
+
+
+.word2{
+	position: absolute;
+	right: 0;
+	top:190px;
+}
+.word2_1{
+	padding: 10px;
+	background-color: #454d59;
+	position: relative;
+	left: 10px;
+	margin-bottom: 40px;
+}
+
+.word2_2{
+text-align: right;
+}
+
+.word2_3{
+	text-align: right;
+	line-height: 26px;
+}
+
+.intro3{
+	height: 645px;
+	position:relative;
+	background-color: #f06060;
+};
+
+.content3{
+	width: 960px;
+	height: 645px;
+	position: relative;
+}
+
+.red_bg{
+	width: 431px;
+	height: 431px;
+	position: absolute;
+	right: 0px;
+	top: 145px;
+	background: url(../image/red-bg.gif) no-repeat;
+}
+
+
+
+.word3{
+	position: absolute;
+	top:190px;
+	left: -45px;
+}
+
+.word32{
+	padding: 10px;
+	background-color: rgba(184,37,44,0.9);
+	margin-bottom: 40px;
+	width: 330px;
+	position: relative;
+	left: -65px;
+}
+
+.word33{
+	line-height: 26px;
+}
+
+.intro4{
+	height: 645px;
+	position: relative;
+	background-color: #ffeb7b;
+}
+
+.photo_wall_small{
+	width: 590px;
+	height: 442px;
+	background: url(../image/photo_wall_small.jpg) no-repeat;
+	position: absolute;
+	top:145px;
+	left: -45px;
+}
+
+.word4{
+	position: absolute;
+	top:190px;
+	right: 0;
+	text-align: right;
+}
+
+.word40{
+	margin-bottom: 40px;
+}
+
+.word41{
+	margin-bottom: 15px;
+}
+
+.word42{
+	margin-bottom: 10px;
+}
+
+
+.content2.dif{
+	height: 665px;
+}
+
+.intro5{
+	height: 665px;
+	position: relative;
+	background-color: #16a583;
+}
+
+.group{
+	height: 115px;
+	display: block;
+	line-height: 115px;
+	margin-bottom: 20px;
+}
+
+.group_name{
+	width: 280px;
+	position: absolute;
+	top:105px;
+}
+.group_pic{
+	width: 120px;
+	position: absolute;
+	top:105px;
+	left: 280px;
+}
+
+.line24{
+	line-height: 24px;
+}
+
+.word_block{
+	height: 93px;
+	display: block;
+	padding-top: 22px;
+	margin-bottom: 20px;
+	width: 400px;
+}
+
+.group_intro{
+	position: absolute;
+	top:105px;
+	left: 510px;
+}
+
+.intro6{
+	height: 645px;
+	background-color: #F1F1F3;
+	position: relative;
+}
+
+.dotwelogo{
+	width: 455px;
+	height: 140px;
+	background:url(../image/dotwelogo.png) no-repeat;
+position: relative;
+top: 145px;
+}
+
+.dotbutton{
+	width: 608px;
+	height: 55px;
+}
+
+.button{
+	display: inline-block;
+	width: 240px;
+	height: 55px;
+	margin: 0 32px;
+	float: left;
+	position: relative;
+	top:220px;
+}
+
+.button1{
+	background:url(../image/button1.png) no-repeat;
+}
+
+.button2{
+	background:url(../image/button2.png) no-repeat;
+}
+
+.footer{
+	height: 250px;
+	background-color: #434343;
+	position: relative;
+}
+
+.word{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #7b8a8f;
+	letter-spacing: 2.5px;
+}
+
+.word7{
+	font-size: 24px;
+	color: #e9b656;
+}
+
+.word8{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.word9{
+	font-size: 14px;
+	color: #e9b656;
+}
+
+.footer_content{
+	height: 250px;
+	width: 960px;
+	position: relative;
+}
+
+.copyright{
+	width: 233px;
+	position: relative;
+	top:100px;
+}
+
+.info{
+	width: 320px;
+	position: relative;
+	top: 55px;
+		float: left;
+}
+
+.contact_us{
+	left: 60px;
+}
+
+.about_us{
+	left:290px; 
+}
+
+.about_us a:hover{
+	text-decoration: underline;
+}
+
+.contact_us a:hover{
+	text-decoration: underline;
+}
+
+#elevator {
+    background: url("../image/icon_top.png") no-repeat scroll center center rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 60px;
+}
+
+#elevator:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+
+#elevator_item {
+    bottom: 10px;
+    height: 100px;
+    opacity: 1;
+    position: fixed;
+    right: 15px;
+    transition: opacity 0.4s ease-in-out 0s;
+    width: 60px;
+    z-index: 100020;
+}
+
+
+#elevator_item.off {
+    opacity: 0;
+    visibility: hidden;
+}
+.wordmove{
+	position: relative;
+	top:300px;
+}
+.textc{
+	text-align: center;
+}
+
+.word1_1{
+	margin-top: 10px;
+}
+
+.mail:hover{
+	text-decoration: underline;
+};
+
